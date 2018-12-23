@@ -1,3 +1,2 @@
 ﻿  theGame.cpp
-e:\dev\thegame\thegame\thegame.cpp(197): warning C4060: оператор switch не содержит метку "case" или "default"
   theGame.vcxproj -> E:\dev\theGame\x64\Debug\theGame.exe
