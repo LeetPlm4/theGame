@@ -66,9 +66,6 @@ int FileProcessing::GameLoad(int sID)
 	std::ifstream load("LOVE\\GAMESAVE.txt");
 	load.getline(stg, sID);
 
-	// https://forum.shelek.ru/index.php/topic,8804.0.html
-	
-
 	return Num;
 	*/
 	return result;
