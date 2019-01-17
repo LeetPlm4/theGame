@@ -7,7 +7,7 @@
 //#include <stdlib.h> 
 
 
-FileProcessing::FileProcessing()
+/*FileProcessing::FileProcessing()
 {
 }
 
@@ -15,7 +15,7 @@ FileProcessing::FileProcessing()
 FileProcessing::~FileProcessing()
 {
 }
-
+*/
 void FileProcessing::GameSave(int pX, int pY, int mID)
 {
 	std::ofstream save;
