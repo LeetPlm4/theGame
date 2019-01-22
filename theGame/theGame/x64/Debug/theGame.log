@@ -1,4 +1,2 @@
 ﻿  theGame.cpp
-e:\dev\thegame\thegame\thegame.cpp(175): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
-e:\dev\thegame\thegame\thegame.cpp(444): warning C4838: преобразование из "int" в "SHORT" требует сужающего преобразования
   theGame.vcxproj -> E:\dev\theGame\x64\Debug\theGame.exe
