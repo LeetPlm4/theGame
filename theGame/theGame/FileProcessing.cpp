@@ -16,11 +16,11 @@ FileProcessing::~FileProcessing()
 {
 }
 */
-void FileProcessing::GameSave(int pX, int pY, int mID)
+void FileProcessing::GameSave(int pX, int pY, int mID, int hp)
 {
 	std::ofstream save;
 	save.open("LOVE\\GAMESAVE.txt");
-	save << pX << std::endl << pY << std::endl << mID;
+	save << pX << std::endl << pY << std::endl << mID << std::endl << hp;
 	save.close();
 }
 

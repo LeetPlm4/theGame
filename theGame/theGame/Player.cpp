@@ -2,19 +2,23 @@
 #include "Player.h"
 #include <conio.h>
 
+
+void Player::setX(int x) { pX = x; };
+void Player::setY(int y) { pY = y; };
+void Player::setMap(int m) { pMap = m; };
+void Player::setHP(int hp) { pHP = hp; };
+
+int Player::getX() { return pX; };
+int Player::getY() { return pY; };
+int Player::getMap() { return pMap; };
+int Player::getHP() { return pHP; };
+
 extern char mapArray[15][31];
 void Player::setPos(unsigned short int x, unsigned short int y)
 {
 	pX = x;
 	pY = y;
 };
-
-void Player::setX(int x) { pX = x; };
-void Player::setY(int y) { pY = y; };
-void Player::setMap(int m) { pMap = m; };
-int Player::getX() { return pX; };
-int Player::getY() { return pY; };
-int Player::getMap() { return pMap; };
 
 int Player::Control() 
 {
